@@ -1,0 +1,26 @@
+/*Cascading style sheet*/
+
+h1 {
+    font-style: italic;
+    color: blueviolet;
+}
+
+.warning {
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+/* Makes images fit to the size of the device's screen - prevents horizontal scrolling */
+img {
+    max-width: 100%;
+    display: block;
+}
